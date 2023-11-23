@@ -1,0 +1,10 @@
+.apresentacao__conteudo__habilidades{
+    display: flex;
+    flex-direction: column;
+}
+.apresentacao__conteudo__habilidade{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+}

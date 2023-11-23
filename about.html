@@ -4,23 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mim</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/texto.css">
 </head>
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="/index.html">Home</a>
-            <a class="cabecalho__menu__link" href="/about.html">Sobre mim</a>
+            <div class="cabecalho__menu__logo">
+                <a href="index.html"><img class="cabecalho__menu__logo__img" src="assets/logo.svg" ></a>
+            </div>
+            <div class="cabecalho__menu__links">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="skill.html">Habilidades</a>
+                <a class="cabecalho__menu__link" href="#">Projetos</a>
+                <a class="cabecalho__menu__link" href="#">Contato</a>
+            </div>
         </nav>
     </header>
 
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo">Sobre Mim</h1>
-            <p class="apresentacao__conteudo__texto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, minima. Earum alias laudantium modi nemo! Nam odit fugiat hic ad, eligendi quia ea nihil necessitatibus, dolorem ullam doloribus delectus possimus?</p>
-            <p class="apresentacao__conteudo__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatibus, asperiores quas facere quo architecto aliquid adipisci rerum ab? Ratione inventore corporis quibusdam quasi sit repellendus accusantium repellat molestiae aut.</p>
+            <h1 class="apresentacao__conteudo__titulo">Sobre mim</h1>
+            <p class="apresentacao__conteudo__texto">Uma jovem criativa, de uma família que ensinaram o poder e o 
+                valor da educação, a partir disso, encontrou na tecnologia uma forma de ajudar o seu redor, 
+                desenvolvendo em equipe ou sozinha projetos a fins educacionais de forma ética e inovadora</p>
         </section>
-        <img class="apresentacao__imagem" src="/assets/Imagem.svg" alt="Foto da Joana Santos Programando">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Minhas <strong class="titulo-detaque">formações</strong></h1>
+            <div class="apresentacao__conteudo_formacao">
+                <h2 class="apresentacao__conteudo__subtitulo"> <strong class="texto-destaque"> Formada </strong> - Técnico de Desenvolvimento de Sistemas</h2>
+                <p class="apresentacao__conteudo__texto">Nov. 2021 até Abril 2023 - Senac</p>
+            </div>
+            <div class="apresentacao__conteudo_formacao">
+                <h2 class="apresentacao__conteudo__subtitulo"> <strong class="texto-destaque">Em andamento </strong> -Tecnólogo Análise e Desenvolvimento de Sistemas</h2>
+                <p class="apresentacao__conteudo__texto">Jan. 2023 até Junho 2025 - Pitágoras</p>
+            </div>
+        </section>
     </main>
 
     <footer class="rodape">
