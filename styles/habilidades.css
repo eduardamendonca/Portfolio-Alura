@@ -1,10 +1,43 @@
 .apresentacao__conteudo__habilidades{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 .apresentacao__conteudo__habilidade{
     display: flex;
     flex-direction: row;
     gap: 2rem;
     padding: 1rem;
+}
+.apresentacao__conteudo__habilidade__button{
+    background-color: #29034D;
+    width: 10rem;
+    height: 80px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 4px;
+    color: #FFFFFF; 
+    border-style:solid;
+    border-width:2px;
+    border-color: #C39BE8;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px black;  
+}
+.apresentacao__conteudo__texto{
+    width: 80%;
+    padding-left: 20%;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 1200px){
+    .apresentacao__conteudo__texto{
+        width: 80%;
+        padding-left: 0%;
+        padding: 10%;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
 }

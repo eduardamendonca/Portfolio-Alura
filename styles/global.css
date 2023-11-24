@@ -22,7 +22,7 @@ body{
     color: var(--cor-secundaria);
     background-image: url(/assets/fundo.svg);
     background-repeat: no-repeat;
-    background-position: 100% 0%;
+    background-position: 100% 0% ;
     background-size: 80%;
 }
 
@@ -64,12 +64,37 @@ body{
     color: var(--cor-secundaria);
 }
 
+.cabecalho__menu__link:hover{
+    color: #6A006C;
+    transition: 0.6s;
+}
+
 .rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     padding: 20px;
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria);
     background-color: var(--cor-terciaria);
-    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: var();
     font-size: 24px;
     font-weight: 400;
 }
+
+.rodape__img{
+    width: 100px;
+}
+
+@media (max-width: 1200px){
+    .cabecalho__menu__link{
+        font-size: 15px;
+        justify-content: none;
+    }
+    .cabecalho__menu__links{
+        gap: 10px;
+    }
+}
+    

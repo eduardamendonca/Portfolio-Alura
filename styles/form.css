@@ -1,0 +1,25 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.button_submit{
+    color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    font-family: 'Aldrich', sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 3rem;
+}
+.form_input{
+    display: flex;
+    flex-direction: column;
+}
+input,
+textarea{
+    font-size: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}

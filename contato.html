@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Eduarda Mendonca</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/texto.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <div class="cabecalho__menu__logo">
+                <a href="index.html"><img class="cabecalho__menu__logo__img" src="assets/logo.svg" ></a>
+            </div>
+            <div class="cabecalho__menu__links">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="skill.html">Habilidades</a>
+                <a class="cabecalho__menu__link" href="projetos.html">Projetos</a>
+                <a class="cabecalho__menu__link" href="contato.html">Contato</a>
+            </div>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Entre em <strong class="titulo-detaque">contato</strong></h1>
+    
+        <form action="#" method="post" class="form">
+            <div class="form_input">
+                <label for="nome" class="apresentacao__conteudo__texto">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form_input">
+                <label for="email" class="apresentacao__conteudo__texto">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form_input">
+                <label for="mensagem" class="apresentacao__conteudo__texto">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <button class="button_submit" type="submit">Enviar</button>
+
+        </form>
+    </section>
+    <img class="apresentacao__imagem" src="/assets/Imagem.png" alt="Foto da Eduarda Mendonça">
+    </main>
+    <footer class="rodape">
+        <img class="rodape__img" src="assets/alura.svg" alt="Alura" >
+        <img class="rodape__img" src="assets/trilhas.svg" alt="Talentos de Futuro TI" srcset="">
+        <p>
+            Desenvolvido por Eduarda Mendonça.
+        </p>
+    </footer>
+</body>
+</html>
